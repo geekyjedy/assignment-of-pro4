@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');
+nav div img {
+    width: 150px;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.list {
+    position: relative;
+    margin-left: 200px;
+    bottom: 65px;
+}
+
+.list-item:hover {
+    color: #313030;
+    transition: 0.2s;
+}
+
+.list-item {
+    position: relative;
+    display: inline;
+    margin-left: 35px;
+    font-family: 'Montserrat';
+    color: #bdbdbd;
+    font-weight: 600;
+    font-size: smaller;
+}
+
+.button-group {
+    position: relative;
+    margin-left: 78%;
+    bottom: 130px;
+}
+
+.nav-button {
+    background-color: #5562b7;
+    font-family: 'Montserrat';
+    color: white;
+    border: #8592e4;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav-button:hover {
+    background-color: #adb7f9;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+span {
+    color: #646dab;
+}
+
+.description {
+    font-family: 'Montserrat';
+    font-size: small;
+    color: #717070;
+    font-weight: 100;
+    opacity: 0.9;
+    margin-left: 50px;
+    position: relative;
+    bottom: 40px;
+}
+
+.heading-text {
+    position: relative;
+    font-family: 'Sora';
+    color: #362b68;
+    font-size: 250%;
+    margin-left: 50px;
+    bottom: 30px;
+}
+
+.nav-button {
+    margin-left: 50px;
+}
+
+.bg-img {
+    position: absolute;
+    margin-left: 583px;
+    bottom: -140px;
+}
+
+.width-image {
+    width: 850px;
+}
