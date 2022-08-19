@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
 nav div img {
     width: 150px;
     margin-top: 35px;
@@ -8,8 +13,8 @@ nav div img {
 
 .list {
     position: relative;
-    margin-left: 200px;
-    bottom: 65px;
+    margin-left: 250px;
+    bottom: 40px;
 }
 
 .list-item:hover {
@@ -38,11 +43,10 @@ nav div img {
     font-family: 'Montserrat';
     color: white;
     border: #8592e4;
+    position: relative;
+    top: 45px;
     border-radius: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 25px;
 }
 
 .nav-button:hover {
@@ -63,7 +67,7 @@ span {
     opacity: 0.9;
     margin-left: 50px;
     position: relative;
-    bottom: 40px;
+    top: 20px;
 }
 
 .heading-text {
@@ -81,8 +85,9 @@ span {
 
 .bg-img {
     position: absolute;
-    margin-left: 583px;
+    margin-left: 540px;
     bottom: -140px;
+    height: 90%;
 }
 
 .width-image {
